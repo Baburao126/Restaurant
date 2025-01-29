@@ -1,0 +1,179 @@
+    .mainDiv{
+        width: 70%;
+    }
+
+    .mainDiv form{
+        width: 87%;
+        height: 70vh;
+    }
+
+    .mainDiv form h2{
+        margin-left: 40%;
+        margin-top: -10px;
+    }
+
+    .mainDiv form option{
+        color: black;
+    }
+
+    .sabjiRoti{
+        display: flex;
+        margin-top: 2rem;
+        margin-left: -1rem;
+    }
+
+    .sabjiRoti select {
+        height: 30px;
+    }
+
+    .selectedFoodItems{
+        width: 30%;
+        padding-left: 5px;
+        margin-top: 100px;
+    }
+
+    .selectedFoodItems li{
+        margin-left: -40px;
+        list-style: none;
+        color: rgb(14, 41, 2);
+        margin-top: 0px;
+        background-color: aqua;
+    }
+
+    .selectedFoodItems button{
+        color: rgb(199, 14, 14);
+        border: none;
+        margin-left: 10px;
+        background: none;
+        cursor: pointer;
+    }
+
+    .startersSweets{
+        margin-top: 2rem;
+        display: flex;
+        margin-left: -1rem;
+    }
+
+    .startersSweets select {
+        height: 30px;
+    }
+
+    .drinkIcecream{
+        display: flex;
+        margin-top: 2rem;
+        margin-left: -1rem;
+    }
+
+    .mainDiv form select{
+        background: none;
+        height: 25px;
+        width: 240px;
+        margin-left: 1px;
+    }
+
+    .mainDiv form label{
+        font-weight:600
+    }
+
+    .mainDiv form input{
+        background: none;
+
+    }
+
+    .mainDiv form button{
+        background-color: rgb(73, 128, 50);
+        border-radius: 10px;
+        margin-left: 40%;
+        height: 2rem;
+        color: aliceblue;
+        border: none;
+        cursor: pointer;
+    }
+    .button{
+        margin-top: 1rem;
+    }
+
+    .button button:hover{
+        background-color: rgb(38, 103, 11);
+    }
+    .peopleDate{
+        display: flex;
+        margin-top: 2rem;
+        margin-left: -1rem;
+    }
+
+    .SubmitedFormData{
+        margin-top: 20px;
+    }
+
+    .BulkOrderTable {
+        margin: 20px;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background: linear-gradient(to bottom, rgba(226, 240, 223, 0.3), rgba(235, 237, 232, 0.7));
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #c3f4cd;
+    }
+
+
+    .VeiwButton{
+        display: inline-block;
+        color: rgb(15, 97, 168);
+        margin-top: auto;
+        margin-left: 60%;
+    }
+
+    .VeiwButton button{
+        position: sticky;
+        background-color: aquamarine;
+        border-radius: 10px;
+        height: 30px;
+    }
+
+.Navlinkbar{
+    width: 100%;
+    height: 40px;
+    margin-top: 67px;   
+    background: linear-gradient(to top,rgb(207, 231, 204),rgb(229, 243, 227));
+    position: static;
+   }
+    
+.navbuttons button{
+    margin-left: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+}
+
+.navbuttons button.active{
+    background-color: aliceblue;
+    height: 40px;
+}
+
+#bulkOrderForm {
+    background:none;
+    margin-top: 0px;
+    background-color: #f1fdf5;
+}
+
+.selectedFoodItems {
+    width: 35%;
+    margin-top: 0px;
+    background-color: #f1fdf5;
+    margin-left: -43PX;
+}
+

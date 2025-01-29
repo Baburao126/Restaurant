@@ -1,0 +1,137 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: #303d18;
+  color: #f3eaea;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+  position: fixed;
+  width: 100%;
+  margin-right: -10px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-toggle {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.sidebar-toggle i {
+  font-size: 1.5rem;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 2rem;
+}
+
+.nav-link {
+  color: #e7dada;
+  text-decoration: none;
+  font-size: large;
+  padding: 10px 15px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.nav-item.active .nav-link {
+  color: rgb(243, 197, 97);
+
+}
+
+a:hover{
+color: rgb(243, 197, 97);
+}
+
+.sidebar {
+  background-color: #e8f4da;
+  color: #0a0909;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 100%;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-item {
+  margin-bottom: 1rem;
+}
+
+.sidebar-link {
+  color: #0b0808;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar-item.active .sidebar-link {
+  color: white;
+  border-radius: 5px;
+}
+
+.sidebar-link:hover {
+  color: #07310d;
+}
+
+.content {
+  padding: 1rem;
+  flex: 1;
+}
+
+.Logout button{
+  width: 100%;
+  background-color: #d7eeae;
+  border: none;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.Logout button:hover{
+  cursor: pointer;
+}
+.inputSearch{
+ /* background-color:white;  */
+ /* border: 1px solid white; */
+ color: #100202;
+ border-radius: 10px;
+ height: 20px;
+}
+.inputSearch input{
+  background-color: none;
+  border: none; 
+  color: #0b0808;
+ }
+
+ .inputSearch input::placeholder{
+  color: white;
+ }

@@ -1,0 +1,39 @@
+.addbody{
+    background: linear-gradient(to bottom,rgb(214, 218, 216),rgb(209, 245, 205));
+    background-size: cover;
+    height: 100vh;
+}
+.AddForm{
+display: inline-block;
+margin-left: 30%;
+text-align: center;
+margin-top: 70px;
+}
+.AddForm h2{
+    margin-bottom: -40px;
+    color: black;
+}
+.AddForm form input{
+    height: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    width:350px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.AddForm form{
+    margin-top: -10px;
+}
+
+.AddForm form textarea{
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    width:350px;
+    text-align: center;
+    font-size: 15px;
+}
+

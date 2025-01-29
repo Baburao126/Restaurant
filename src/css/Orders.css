@@ -1,0 +1,50 @@
+/* .OuterDivofOrders {
+    display: flex;
+    width: ;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #161010;
+    border-radius: 10px;
+
+}
+
+.OuterDivofOrders .image {
+    width: 30%;
+    margin-left: -59px;
+}
+
+.OuterDivofOrders .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.OuterDivofOrders .details {
+    width: 60%;
+    margin-left: 20px;
+}
+
+.OuterDivofOrders .details h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.OuterDivofOrders .details p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+} */

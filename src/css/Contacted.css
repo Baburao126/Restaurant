@@ -1,0 +1,79 @@
+.Orderstable {
+    text-align: center;
+}
+
+.Orderstable  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: linear-gradient(to bottom, rgba(178, 215, 208, 0.1), rgba(234, 237, 238, 0.5));
+}
+.Orderstable  table thead tr th{
+    background: linear-gradient(to bottom, rgba(14, 185, 207, 0.3), rgba(5, 177, 234, 0.3));
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #c3f4cd;
+}
+.RejectButton {
+    margin: 5px;
+    border-radius: 10px; 
+    border: none;
+    cursor: pointer;
+    padding: 7px;
+    background: rgb(114, 15, 15);
+    color: #ddd;
+}
+
+.AcceptButton {
+    margin: 5px;
+    border-radius: 10px; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 7px;
+    background: green;
+}
+
+.AcceptButton:hover{
+    background-color: rgb(165, 223, 160);
+    color: black;
+
+}
+.RejectButton:hover{
+    background-color: rgb(223, 64, 56);
+    color: black;
+
+}
+
+.AcceptOrderNavbar{
+    width:100%;
+    height: 40px;
+    margin-top: 80px;
+    background: linear-gradient(to bottom, rgba(124, 219, 231, 0.3), rgba(116, 192, 224, 0.3));
+}
+
+
+
+.AcceptOrderNavbar button{
+    margin-top: 5px;
+    display: inline-block;
+    padding: 12px;
+    color: rgb(13, 13, 18);
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.AcceptOrderNavbar button.active {
+    background-color: white ;
+    color: rgb(118, 118, 156);
+    margin-left: 10px;
+    padding-bottom: 20px;
+}

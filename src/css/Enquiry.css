@@ -1,0 +1,78 @@
+.mainEnquiry{
+    margin-top: 4.3rem;
+    background:linear-gradient(to top,rgb(213, 242, 213),rgb(172, 215, 205));
+}
+.mainEnquiry form{
+    width: 92%;
+    margin-top: -4rem;
+}
+.formDiv{
+    display: flex;
+    width: 100%;
+    height: 68vh;
+
+}
+/* left side css */
+.formDiv .leftdiv{
+    width: 30%; 
+    margin-left: 10%;
+}
+.formDiv .leftdiv label{
+    font-size: large;
+    font-weight:400;
+    margin: 10px;
+}
+.formDiv .leftdiv input{
+    width: 90%;
+    height: 20px;
+    margin: 10px;
+    text-align: left;
+    border-radius: 5px;
+    border: none;
+}
+.formDiv .leftdiv select {
+    width: 90%;
+    height: 20px;
+    margin: 10px;
+    text-align: left;
+    border-radius: 5px;
+    border: none;
+}
+
+/*right side css*/
+.formDiv .rightdiv{
+    width: 40%; 
+    margin-left: 20%;
+}
+
+.formDiv .rightdiv label{
+    font-size: large;
+    font-weight:400;
+    margin: 10px;
+}
+.formDiv .rightdiv input{
+    width: 90%;
+    height: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.formDiv .rightdiv .checkbox {
+    display: inline-block;
+    width: 80%;
+    margin-left: 10px;
+}
+.formDiv .rightdiv .checkbox label {
+    font-weight: 400;
+}
+
+form button{
+    background: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+form button:hover{
+    background-color: green;
+    color: antiquewhite;
+
+}
